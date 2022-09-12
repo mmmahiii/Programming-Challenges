@@ -1,5 +1,4 @@
 def userInput():
-    global numOfRods
     numOfRods = float(input("Input rods: "))
     print(f"You input {numOfRods} rods.")
     print("")
