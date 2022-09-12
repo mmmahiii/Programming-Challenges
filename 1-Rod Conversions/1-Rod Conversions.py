@@ -18,9 +18,13 @@ def furlongs(rods):
 def minsToWalk(miles):
     return miles/(3.1/60)
 
-rod = userInput()
-print (f"Meters: {meters(rod)}")
-print (f"Feet: {feet(meters(rod))}")
-print (f"Miles: {miles(meters(rod))}")
-print (f"Furlongs: {furlongs(rod)}")
-print (f"Minutes to walk {rod} Rods: {minsToWalk(miles(meters(rod)))}")
+def main():
+    rod = userInput() 
+    print (f"Meters: {meters(rod)}") 
+    print (f"Feet: {feet(meters(rod))}") 
+    print (f"Miles: {miles(meters(rod))}") 
+    print (f"Furlongs: {furlongs(rod)}") 
+    print (f"Minutes to walk {rod} Rods: {minsToWalk(miles(meters(rod)))}") 
+
+if __name__ == '__main__':
+    main()
