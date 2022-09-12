@@ -1,7 +1,6 @@
 def userInput():
     numOfRods = float(input("Input rods: "))
-    print(f"You input {numOfRods} rods.")
-    print("")
+    print(f"You input {numOfRods} rods.\n")
     return numOfRods
 
 def meters(rods):
